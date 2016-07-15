@@ -1,0 +1,26 @@
+{
+  "name": "dust-test-helper",
+  "version": "1.0.0",
+  "description": "helper methods for testing dust",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && mocha test.js",
+    "test:debug": "eslint --rule=no-debugger:1 . && mocha debug test.js"
+  },
+  "keywords": [
+    "dust",
+    "dustjs",
+    "template",
+    "test"
+  ],
+  "author": "jimmyhchan",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dustjs-linkedin": "^2.7.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  }
+}
